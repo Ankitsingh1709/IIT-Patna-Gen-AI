@@ -1,0 +1,17 @@
+[
+    {
+        "amount": 5555.0,
+        "category": "Food",
+        "description": "with friends"
+    },
+    {
+        "amount": 8000.0,
+        "category": "Food + Travel",
+        "description": "trip to bala bala"
+    },
+    {
+        "amount": 70.0,
+        "category": "Food",
+        "description": "tea"
+    }
+]
