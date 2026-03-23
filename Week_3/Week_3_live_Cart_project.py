@@ -138,3 +138,25 @@ def menu():
 
 
 menu()
+
+
+
+
+
+class Atm:
+    def __init__(self):
+        self.pin = ''
+        self.balance = 0
+        self.menu()
+    
+    def menu(self):
+        user_input = input('''
+        ===============Welcome=============
+        1. Press 1 to create pin
+        2. Press 2 to check balance
+        3. Press 3 to change pin
+        4. Press 4 to withdraw 
+        5. Any thing else to exit
+        ''')
+    def create_pin(self):
+        self.pin = input("Enter your pin")
